@@ -6,4 +6,9 @@ class Login extends CI_Controller {
 	{
 		$this->load->view('login');
 	}
+
+	public function verificar(){
+
+		
+	}
 }

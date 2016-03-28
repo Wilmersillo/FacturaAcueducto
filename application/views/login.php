@@ -109,18 +109,18 @@
 			
 			
 			
-                        <form action="../configuracion/login.php" method="post" >
+                        <form action="/FacturaAcueducto/index.php/auth/login" method="post" >
 						  	<div class="form-group" action="login.php" method="post">
-					          <label>User: </label>
+					          <label>Usuario: </label>
 					          <div class="input-group">
-					            <input type="text" class="form-control" id="ejemplo_text_3" placeholder="User" name="user" required>
+					            <input type="text" class="form-control" id="ejemplo_text_3" placeholder="User" name="login" required>
 					            <span class="input-group-btn">
 					              <button class="btn btn-default" type="button" id="filter-clear"><span class="glyphicon glyphicon-user"></span></button>
 					            </span>
 					          </div>
-					          <label>Password</label>
+					          <label>Contraseña</label>
 					          <div class="input-group">
-					            <input type="password" class="form-control" id="ejemplo_password_3" placeholder="Password" name="pass" required>
+					            <input type="password" class="form-control" id="ejemplo_password_3" placeholder="Password" name="password" required>
 					            <span class="input-group-btn">
 					              <button class="btn btn-default" type="button" id="filter-clear"><span class="glyphicon glyphicon-lock"></span></button>
 					            </span>
@@ -129,7 +129,7 @@
 					        <div class="input-group">
 							 <input class="btn btn-primary" type="submit" value="Ingresar">
 							</div>
-							<a href="/FacturaAcueducto/index.php/guardar/inicio">Hola mundo</a>
+							<a href="/FacturaAcueducto/index.php/auth/register/">Registrar nuevo usuario</a>
 					</form>
 			
 			
